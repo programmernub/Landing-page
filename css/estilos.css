@@ -1,0 +1,259 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	color:white;
+	font-family: sans-sherif;
+}
+body{
+	background-color: #000;
+}
+
+.header{
+	width: 100%;
+	height: 110px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background: #000;
+}
+.banner{
+	width: 50%;
+}
+.menu{
+	width: 600px;
+	height: 50px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: flex-end;
+	background: orange;
+}
+.option{
+	width: 20%;
+	height: 100%;
+	line-height: 50px;
+	padding: 0 5px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.option:hover{
+	background: rgba(0,0,0,.1);
+	transition: all;
+	transition-duration: 500ms;
+}
+
+
+.about-us{
+	width: 100vw;
+	height: 600px;
+	padding-top: 110px;
+	display: flex;
+}
+.description h1{
+	font-size: 55px;
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+.description{
+	width: 50%;
+	padding: 0 50px;
+	font-size: 26px;
+}
+.description p{
+	line-height: 40px;
+}
+.description-image{
+	width: 45%;
+}
+
+
+
+.mas-vendidos{
+	padding-top: 110px;
+}
+.mas-vendidos h2{
+	font-size: 60px;
+	border-bottom: 4px solid orange;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.items{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+.instrumento-section{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+}
+.instrumento{
+	width: 60%;
+	height: 80%;
+	border-radius: 10px;
+}
+.instrumento-section p{
+	margin-top: 20px;
+}
+.instrumento-section p:hover{
+	color: orange;
+}
+.instrumento-section:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+.instrumentos-section{
+	padding-top: 110px;
+}
+.instrumentos-container{
+	width: 100%;
+	height: 600px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	text-align: center;
+}
+.instrumentos-section h2{
+	font-size: 60px;
+	border-bottom: 4px solid orange;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.instrumentos-container p{
+	margin-top: 10px;
+}
+.instrumentos-container p:hover{
+	cursor: pointer;
+	color: orange;
+}
+
+.instrumentos-exibicion-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 15%;
+}
+.instrumentos-exibicion-image{
+	cursor: pointer;
+}
+
+
+
+
+.division-repuestos{
+	padding-top: 110px;
+	width: 100%;
+	height: 800px;
+}
+.division-repuestos h2{
+	font-size: 60px;
+	border-bottom: 4px solid orange;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.repuestos-container{
+	width: 100%;
+	height: 600px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	text-align: center;
+}
+.repuesto-image{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+.division-discos{
+	padding-top: 110px;
+	height: 500px;
+}
+.discos-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.division-discos h2{
+	font-size: 60px;
+	border-bottom: 4px solid orange;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+.discos-container p{
+	margin-top: 10px;
+	text-align: center;
+}
+.discos-container p:hover{
+	color:orange;
+	cursor: pointer;
+}
+
+
+.formulario{
+	text-align: center;
+	width: 30%;
+	background: #aaa;
+	margin:0 auto;
+	padding: 20px;
+}
+.formulario p{
+	color:rgba(0,0,0,.5);
+	margin: 0; 
+}
+.form-input{
+	color:black;
+	border-radius: 4px;
+	outline: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.btn-enviar{
+	width: 20%;
+	color:black;
+}
+.btn-enviar:hover{
+	cursor: pointer;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	margin-top: 50px;
+	height: 100px;
+	padding-left: 25px;
+}
+.contacto{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+.networks{
+	font-size: 50px;
+}
